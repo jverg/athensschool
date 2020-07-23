@@ -1,124 +1,108 @@
-/* Carousel */
-.carousel-item {
-  height: 100vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+<!DOCTYPE html>
+<html>
+  <!-- Navigation -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img
+          src="/images/logo.jpg"
+          alt="Applymycv logo"
+          height="40"
+          width="300"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarResponsive"
+        aria-controls="navbarResponsive"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              Αρχική
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Τμήματα</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Σεμινάρια</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/contact.html">Επικοινωνία</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <head>
+    <meta charset="utf8" />
+    <title>Athens School</title>
 
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <center class="ad__top">
+        <h4 class="ad__title">Επικοινωνία</h4>
+      </center>
+      <br />
 
-/* Our team */
-.row.heading h2 {
-    color: #000;
-    font-size: 52.52px;
-    line-height: 95px;
-    font-weight: 400;
-    text-align: center;
-    margin: 0 0 40px;
-    padding-bottom: 20px;
-}
-ul{
-  margin:0;
-  padding:0;
-  list-style:none;
-}
-.heading.heading-icon {
-    display: block;
-}
-.padding-lg {
-	display: block;
-	padding-top: 60px;
-	padding-bottom: 60px;
-}
-.practice-area.padding-lg {
-    padding-bottom: 55px;
-    padding-top: 55px;
-}
-.practice-area .inner{
-     border:1px solid #999999;
-	 text-align:center;
-	 margin-bottom:28px;
-	 padding:40px 25px;
-}
-.our-webcoderskull .cnt-block:hover {
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
-    border: 0;
-}
-.practice-area .inner h3{
-    color:#3c3c3c;
-	font-size:24px;
-	font-weight:500;
-	font-family: 'Poppins', sans-serif;
-	padding: 10px 0;
-}
-.practice-area .inner p{
-    font-size:14px;
-	line-height:22px;
-	font-weight:400;
-}
-.practice-area .inner img{
-	display:inline-block;
-}
+      <div class="col-xs-8">
+        <p class="grey-color">
+          Athens School - Σχολή Αθηνών<br />
+          Ξενοφόντος 8, Πλ. Συντάγματος<br />10557 Αθήνα, Ελλάδα<br />
+          <a href="mailto:athenschool2017@gmail.com"
+            >athenschool2017@gmail.com</a
+          ><br />
+          <a href="tel:+30 6981581543">+30 6981581543</a><br />
+        </p>
+      </div>
 
-
-/* .our-webcoderskull{
-   background: url("http://www.webcoderskull.com/img/right-sider-banner.png") no-repeat center top / cover;
-} */
-.our-webcoderskull .cnt-block{
-   float:left;
-   width:100%;
-   background:#fff;
-   padding:30px 20px;
-   text-align:center;
-   border:2px solid #d5d5d5;
-   margin: 0 0 28px;
-}
-.our-webcoderskull .cnt-block figure{
-   width:148px;
-   height:148px;
-   border-radius:100%;
-   display:inline-block;
-   margin-bottom: 15px;
-}
-.our-webcoderskull .cnt-block img{
-   width:148px;
-   height:148px;
-   border-radius:100%;
-}
-.our-webcoderskull .cnt-block h3{
-   color:#2a2a2a;
-   font-size:20px;
-   font-weight:500;
-   padding:6px 0;
-}
-.our-webcoderskull .cnt-block h3 a{
-  text-decoration:none;
-	color:#2a2a2a;
-}
-.our-webcoderskull .cnt-block h3 a:hover{
-	color:#337ab7;
-}
-.our-webcoderskull .cnt-block p{
-   color:#2a2a2a;
-   font-size:13px;
-   line-height:20px;
-   font-weight:400;
-}
-.our-webcoderskull .cnt-block .follow-us{
-	margin:20px 0 0;
-}
-.our-webcoderskull .cnt-block .follow-us li{
-    display:inline-block;
-	width:auto;
-	margin:0 5px;
-}
-.our-webcoderskull .cnt-block .follow-us li .fa{
-   font-size:24px;
-   color:#767676;
-}
-.our-webcoderskull .cnt-block .follow-us li .fa:hover{
-   color:#025a8e;
-}
+      <div class="map">
+        <iframe
+          class="map__responsive"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.021571649554!2d23.728984235481906!3d37.97662588908238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd3c5f40d261%3A0xe6131108dac0e2b!2sOpp*21%20Collection!5e0!3m2!1sel!2sgr!4v1595523922768!5m2!1sel!2sgr"
+          width="1100"
+          height="450"
+          frameborder="0"
+          allowfullscreen=""
+        >
+        </iframe>
+      </div>
+    </div>
+    <br /><br />
+  </body>
+</html>
