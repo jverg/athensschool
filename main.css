@@ -200,10 +200,7 @@ section .section-title {
 }
 
 /*** Art ***/
-.centered {
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+.lesson-image {
+  width: 100%;
+  max-height: 600px;
 }
