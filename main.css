@@ -58,7 +58,7 @@ div.desc {
   float: left;
   width: 24.99999%;
 }
-*/ @media only screen and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
@@ -84,28 +84,38 @@ div.desc {
 .first-text {
   padding: 30% 20% 20% 20%;
 }
+.first-image {
+  background-size: 100% 100%;
+  width: 100%;
+}
 /*** Contact form ***/
 .ad__top {
   margin-top: 12%;
 }
 /* Map */
-.map-responsive{
-  overflow:hidden;
-  padding-bottom:20%;
-  position:relative;
-  height:0;
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 20%;
+  position: relative;
+  height: 0;
 }
-.map-responsive iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 .map {
   -webkit-filter: grayscale(100%);
-     -moz-filter: grayscale(100%);
-      -ms-filter: grayscale(100%);
-       -o-filter: grayscale(100%);
-          filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+@media (max-width: 1200px) {
+  .first-image {
+    background-size: 100% 100%;
+    width: auto;
+  }
 }
