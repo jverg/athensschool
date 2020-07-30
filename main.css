@@ -86,7 +86,8 @@ div.desc {
 }
 .first-image {
   background-size: 100% 100%;
-  width: 100%;
+  width: auto;
+  height: 100%;
 }
 /*** Contact form ***/
 .ad__top {
@@ -117,5 +118,17 @@ div.desc {
   .first-image {
     background-size: 100% 100%;
     width: auto;
+    height: 100%;
   }
+}
+.second-text-section {
+  background-color: #f7f7f7;
+}
+.second-text-title {
+  padding: 10% 30% 2% 30%;
+  background-color: #f7f7f7;
+}
+.second-text {
+  padding: 2% 30% 10% 30%;
+  background-color: #f7f7f7;
 }

@@ -1,71 +1,134 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<!-- Navigation -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" type="image/png" href="/images/favicon.jpg"/>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    	<a class="navbar-brand" href="/">
-				<img class="logo" src="/images/logo.jpg" alt="Athens School logo">
-			</a>
-    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-							aria-expanded="false" aria-label="Toggle navigation">
-      	<span class="navbar-toggler-icon"></span>
-      </button>
-    	<div class="collapse navbar-collapse" id="navbarResponsive">
-      	<ul class="navbar-nav ml-auto">
-      		<li class="nav-item active">
-      			<a class="nav-link" href="/">Αρχική<span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Τμήματα</a>
-							<div class="dropdown-menu">
-								<a class="dropdown-item" href="/lessons/art.html">Τέχνη</a>
-								<a class="dropdown-item" href="/lessons/wood.html">Ξυλουργική</a>
-								<a class="dropdown-item" href="/lessons/philosophy.html">Φιλοσοφία</a>
-								<a class="dropdown-item" href="/lessons/publications.html">Εκδόσεις</a>
-							</div>
-					</li>
-        	<li class="nav-item">
-          	<a class="nav-link" href="#">Σεμινάρια</a>
-        	</li>
-        	<li class="nav-item">
-          	<a class="nav-link" href="/contact.html">Επικοινωνία</a>
-        	</li>
-      	</ul>
-    	</div>
-	</nav>
- 	<head>
-		<meta charset="utf8" />
-		<title>Athens School</title>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-						integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-						integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-						integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-		<link rel="stylesheet" type="text/css" href="/main.css">
-	</head>
-	<body>
-	<div class="container-fluid">
-		<div style="padding-top: 68px" class="row">
-			<div class="col" style="background-color: #dddddf;">
-				<h5 class="first-text">
-					Το Athens School είναι μία κοινωνική συνεταιριστική δομή εκπαίδευσης 
-					και έρευνας που έχει σκοπό να προωθήσει την ισότιμη και αυτόνομη σπουδή 
-					και έρευνα των πεδίων της θεωρίας, της τέχνης και της τεχνικής. 
-					Προκρίνει ως ορίζοντα τα προτάγματα της άμεσης δημοκρατίας και της 
-					αυτονομίας σύμφωνα με τη σκέψη του Κορνήλιου Καστοριάδη και των πολιτικών 
-					θεωρητικών της κοινωνικής οικολογίας και του ριζοσπαστικού 
-					μετασχηματισμού.<br><br>email: athenschool2017@gmail.com<br><br>
-					<button type="button" class="btn btn-secondary">Διαβάσστε περισσότερα</button>
-				</h5>
-			</div>
-			<div class="col" style="padding: none">
-				<img class="first-image" src="/images/main_page_image.jpg" alt="Athens School logo">
-			</div>
-		</div>
-	</div>
-	</body>
+  <!-- Navigation -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="/images/favicon.jpg" />
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="/">
+      <img class="logo" src="/images/logo.jpg" alt="Athens School logo" />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarResponsive"
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/"
+            >Αρχική<span class="sr-only">(current)</span></a
+          >
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            data-toggle="dropdown"
+            href="#"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >Τμήματα</a
+          >
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="/lessons/art.html">Τέχνη</a>
+            <a class="dropdown-item" href="/lessons/wood.html">Ξυλουργική</a>
+            <a class="dropdown-item" href="/lessons/philosophy.html"
+              >Φιλοσοφία</a
+            >
+            <a class="dropdown-item" href="/lessons/publications.html"
+              >Εκδόσεις</a
+            >
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Σεμινάρια</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html">Επικοινωνία</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <head>
+    <meta charset="utf8" />
+    <title>Athens School</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="/main.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div style="padding-top: 68px" class="row">
+        <div class="col" style="background-color: #dddddf;">
+          <h4 class="first-text">
+            Το Athens School είναι μία κοινωνική συνεταιριστική δομή εκπαίδευσης
+            και έρευνας που έχει σκοπό να προωθήσει την ισότιμη και αυτόνομη
+            σπουδή και έρευνα των πεδίων της θεωρίας, της τέχνης και της
+            τεχνικής. Προκρίνει ως ορίζοντα τα προτάγματα της άμεσης δημοκρατίας
+            και της αυτονομίας σύμφωνα με τη σκέψη του Κορνήλιου Καστοριάδη και
+            των πολιτικών θεωρητικών της κοινωνικής οικολογίας και του
+            ριζοσπαστικού μετασχηματισμού.<br /><br />email:
+            athenschool2017@gmail.com<br /><br />
+            <button type="button" class="btn btn-secondary">
+              Διαβάσστε περισσότερα
+            </button>
+          </h4>
+        </div>
+        <div class="col" style="padding: none">
+          <img
+            class="first-image"
+            src="/images/main_page_image.jpg"
+            alt="Athens School logo"
+          />
+        </div>
+      </div>
+    </div>
+    <section class="second-text-section">
+      <center>
+        <h2 class="second-text-title">
+          Δραστηριότητες
+        </h2>
+      </center>
+      <h4 class="second-text">
+        Το Athens School συντονίζει την παράδοση σεμιναρίων στα αντίστοιχα πεδία
+        με συγκεκριμένα προγράμματα διδασκαλίας επί θεματικών που προτείνουν οι
+        διδάσκοντες, την έκδοση μονογραφιών και ερευνητικών εργασιών, τη
+        διοργάνωση πολιτιστικών εκδηλώσεων, επιστημονικών ημερίδων, θεωρητικών
+        συνεδρίων και εκπαιδευτικών εκδρομών και την εκπόνηση ερευνητικών
+        διεπιστημονικών προγραμμάτων με συνεργασία των διδασκόντων και των
+        διδασκομένων. Υπεύθυνοι διδασκαλίας είναι άνθρωποι με εγνωσμένη πείρα
+        και γνώση του αντικειμένου τους, που οργανώνουν τα αντίστοιχα σεμινάρια
+        και τις περαιτέρω εκδηλώσεις. Το Athens School δημιουργεί αποθετήρια
+        γνώσης με αρχειοθέτηση των σεμιναρίων και των εκδηλώσεων και φιλοδοξεί
+        να δημιουργήσει ένα πεδίο ελεύθερης κριτικής, μάθησης και έρευνας.
+      </h4>
+    </section>
+  </body>
 </html>
