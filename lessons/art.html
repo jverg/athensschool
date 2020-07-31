@@ -4,53 +4,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/png" href="/images/favicon.jpg" />
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <a class="navbar-brand" href="/">
-				<img class="logo" src="/images/logo.jpg" alt="Athens School logo">
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarResponsive"
-        aria-controls="navbarResponsive"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item ">
-            <a class="nav-link" href="/">
-              Αρχική
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item dropdown active">
-            <a
-              class="nav-link dropdown-toggle"
-              data-toggle="dropdown"
-              href="#"
-              role="button"
-              aria-haspopup="true"
-              aria-expanded="false"
-              >Τμήματα</a
+    <a class="navbar-brand" href="/">
+      <img class="logo" src="/images/logo.jpg" alt="Athens School logo" />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarResponsive"
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="/">
+            Αρχική
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item dropdown active">
+          <a
+            class="nav-link dropdown-toggle"
+            data-toggle="dropdown"
+            href="#"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >Τμήματα</a
+          >
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="/lessons/art.html">Τέχνη</a>
+            <a class="dropdown-item" href="/lessons/wood.html">Ξυλουργική</a>
+            <a class="dropdown-item" href="/lessons/philosophy.html"
+              >Φιλοσοφία</a
             >
-            <div class="dropdown-menu">
-							<a class="dropdown-item" href="/lessons/art.html">Τέχνη</a>
-							<a class="dropdown-item" href="/lessons/wood.html">Ξυλουργική</a>
-							<a class="dropdown-item" href="/lessons/philosophy.html">Φιλοσοφία</a>
-							<a class="dropdown-item" href="/lessons/publications.html">Εκδόσεις</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Σεμινάρια</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contact.html">Επικοινωνία</a>
-          </li>
-        </ul>
-      </div>
+            <a class="dropdown-item" href="/lessons/publications.html"
+              >Εκδόσεις</a
+            >
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Σεμινάρια</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html">Επικοινωνία</a>
+        </li>
+      </ul>
+    </div>
   </nav>
   <head>
     <meta charset="utf8" />
@@ -82,13 +86,60 @@
     <link rel="stylesheet" type="text/css" href="/main.css" />
   </head>
   <body>
-
-    <img src="/images/art.jpg" class="lesson-image" alt="Responsive image" />        
-    
+    <div class="container-fluid">
+      <div style="padding-top: 68px" class="row">
+        <div class="col-md-12" style="background-color: #F7F7F7">
+          <center>
+            <h2 style="padding: 2% 0% 0% 0%">
+              Τέχνη και Τεχνική:
+            </h2>
+          </center>
+          <center>
+            <h2 style="padding: 0% 0% 2% 0%">
+              Μαθήματα ξυλουργικής του Athens Wood School
+            </h2>
+          </center>
+        </div>
+      </div>
+    </div>
     <section class="our-webcoderskull padding-lg">
       <div class="container">
         <div class="row heading heading-icon">
-          <h3>Οι καθηγητές</h2>
+          <h2>Διδάσκοντες</h2>
+        </div>
+        <ul class="row">
+          <li class="col-12 col-md-6 col-lg-3">
+            <div class="cnt-block equal-hight" style="height: 349px;">
+              <figure>
+                <img
+                  src="/images/teachers/nikos.jpg"
+                  class="img-responsive"
+                  alt=""
+                />
+              </figure>
+              <h3><a href="http://www.webcoderskull.com/">Νίκος Ιωάννου</a></h3>
+              <p>Ξυλουργός</p>
+              <ul class="follow-us clearfix">
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-envelope" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- <section class="our-webcoderskull padding-lg">
+      <div class="container">
+        <div class="row heading heading-icon">
+          <h4>Διδάσκων</h4>
         </div><br>
         <ul class="row">
           <li class="col-12 col-md-6 col-lg-3">
@@ -175,27 +226,32 @@
           </li>
         </ul>
       </div>
-    </section>
+    </section> -->
     <div class="container">
-      <h2>Με λίγα λόγια</h2><br>
+      <h2>Με λίγα λόγια</h2>
+      <br />
       <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ullamcorper et 
-          risus eget viverra. Maecenas metus leo, dictum eget luctus ut, imperdiet nec 
-          sapien. Sed vel maximus purus. Phasellus interdum viverra faucibus. Curabitur 
-          sit amet posuere est, pretium venenatis massa. <br><br>Etiam accumsan nibh sit amet 
-          auctor venenatis. Quisque eu accumsan mauris. Nulla id metus vel mauris dignissim 
-          pellentesque nec id erat. Sed ut lectus a quam porttitor pellentesque.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+        ullamcorper et risus eget viverra. Maecenas metus leo, dictum eget
+        luctus ut, imperdiet nec sapien. Sed vel maximus purus. Phasellus
+        interdum viverra faucibus. Curabitur sit amet posuere est, pretium
+        venenatis massa. <br /><br />Etiam accumsan nibh sit amet auctor
+        venenatis. Quisque eu accumsan mauris. Nulla id metus vel mauris
+        dignissim pellentesque nec id erat. Sed ut lectus a quam porttitor
+        pellentesque.
       </p>
       <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ullamcorper et 
-          risus eget viverra. Maecenas metus leo, dictum eget luctus ut, imperdiet nec 
-          sapien. Sed vel maximus purus. Phasellus interdum viverra faucibus. Curabitur 
-          sit amet posuere est, pretium venenatis massa. <br><br>Etiam accumsan nibh sit amet 
-          auctor venenatis. Quisque eu accumsan mauris. Nulla id metus vel mauris dignissim 
-          pellentesque nec id erat. Sed ut lectus a quam porttitor pellentesque.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+        ullamcorper et risus eget viverra. Maecenas metus leo, dictum eget
+        luctus ut, imperdiet nec sapien. Sed vel maximus purus. Phasellus
+        interdum viverra faucibus. Curabitur sit amet posuere est, pretium
+        venenatis massa. <br /><br />Etiam accumsan nibh sit amet auctor
+        venenatis. Quisque eu accumsan mauris. Nulla id metus vel mauris
+        dignissim pellentesque nec id erat. Sed ut lectus a quam porttitor
+        pellentesque.
       </p>
       <button type="button" class="btn btn-secondary">Δήλωσε συμμετοχή</button>
-<br><br>
+      <br /><br />
     </div>
   </body>
 </html>
