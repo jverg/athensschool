@@ -5,25 +5,6 @@ body {
   width: 300px;
   height: 40px;
 }
-@media (max-width: 764px) {
-  .logo {
-    height: 30px;
-    width: 200px;
-  }
-  .ad__top {
-    margin-top: 5%;
-  }
-}
-@media (max-width: 564px) {
-  .ad__top {
-    margin-top: 15%;
-  }
-}
-@media (max-width: 430px) {
-  .ad__top {
-    margin-top: 18%;
-  }
-}
 /*** Art ***/
 .lesson-image {
   width: 100%;
@@ -58,19 +39,6 @@ div.desc {
   float: left;
   width: 24.99999%;
 }
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
 .clearfix:after {
   content: "";
   display: table;
@@ -86,8 +54,11 @@ div.desc {
 }
 .first-image {
   background-size: 100% 100%;
-  width: auto;
+  width: 100%;
   height: 100%;
+}
+.col-md-6 {
+  padding: 0px;
 }
 /*** Contact form ***/
 .ad__top {
@@ -114,13 +85,6 @@ div.desc {
   -o-filter: grayscale(100%);
   filter: grayscale(100%);
 }
-@media (max-width: 1200px) {
-  .first-image {
-    background-size: 100% 100%;
-    width: auto;
-    height: 100%;
-  }
-}
 .second-text-section {
   background-color: #f7f7f7;
 }
@@ -131,4 +95,44 @@ div.desc {
 .second-text {
   padding: 2% 30% 10% 30%;
   background-color: #f7f7f7;
+}
+@media (max-width: 764px) {
+  .logo {
+    height: 30px;
+    width: 200px;
+  }
+  .ad__top {
+    margin-top: 5%;
+  }
+  .first-text {
+    padding: 20% 5% 20% 5%;
+  }
+}
+@media (max-width: 564px) {
+  .ad__top {
+    margin-top: 15%;
+  }
+}
+@media (max-width: 430px) {
+  .ad__top {
+    margin-top: 18%;
+  }
+}
+@media (max-width: 1200px) {
+  .first-image {
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
 }
