@@ -10,7 +10,9 @@ body {
   width: 100%;
   max-height: 600px;
 }
-
+h4 {
+  margin-bottom: 0px;
+}
 /*** Wood image gallery ***/
 div.gallery {
   border: 1px solid #ccc;
@@ -49,6 +51,18 @@ div.desc {
   padding: 0px;
   max-width: none;
 }
+.third-text {
+  padding: 15% 10% 0% 10%;
+}
+.third-text-2 {
+  padding: 10% 10% 0% 10%;
+}
+.last-text {
+  padding: 8% 10% 0% 10%;
+}
+.last-text-2 {
+  padding: 5% 5% 6% 5%;
+}
 .first-text {
   padding: 30% 20% 20% 20%;
 }
@@ -58,6 +72,9 @@ div.desc {
   height: 100%;
 }
 .col-md-6 {
+  padding: 0px;
+}
+.col-md-4 {
   padding: 0px;
 }
 /*** Contact form ***/
