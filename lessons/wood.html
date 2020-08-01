@@ -1,57 +1,59 @@
-
 <!DOCTYPE html>
 <html>
   <!-- Navigation -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/png" href="/images/favicon.jpg" />
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <a class="navbar-brand" href="/">
-				<img class="logo" src="/images/logo.jpg" alt="Athens School logo">
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarResponsive"
-        aria-controls="navbarResponsive"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item ">
-            <a class="nav-link" href="/">
-              Αρχική
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item dropdown active">
-            <a
-              class="nav-link dropdown-toggle"
-              data-toggle="dropdown"
-              href="#"
-              role="button"
-              aria-haspopup="true"
-              aria-expanded="false"
-              >Τμήματα</a
+    <a class="navbar-brand" href="/">
+      <img class="logo" src="/images/logo.jpg" alt="Athens School logo" />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarResponsive"
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="/">
+            Αρχική
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item dropdown active">
+          <a
+            class="nav-link dropdown-toggle"
+            data-toggle="dropdown"
+            href="#"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >Τμήματα</a
+          >
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="/lessons/wood.html">Ξυλουργική</a>
+            <a class="dropdown-item" href="/lessons/philosophy.html"
+              >Φιλοσοφία</a
             >
-            <div class="dropdown-menu">
-							<a class="dropdown-item" href="/lessons/art.html">Τέχνη</a>
-							<a class="dropdown-item" href="/lessons/wood.html">Ξυλουργική</a>
-							<a class="dropdown-item" href="/lessons/philosophy.html">Φιλοσοφία</a>
-							<a class="dropdown-item" href="/lessons/publications.html">Εκδόσεις</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Σεμινάρια</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contact.html">Επικοινωνία</a>
-          </li>
-        </ul>
-      </div>
+            <a class="dropdown-item" href="/lessons/publications.html"
+              >Εκδόσεις</a
+            >
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Σεμινάρια</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html">Επικοινωνία</a>
+        </li>
+      </ul>
+    </div>
   </nav>
   <head>
     <meta charset="utf8" />
@@ -83,13 +85,60 @@
     <link rel="stylesheet" type="text/css" href="/main.css" />
   </head>
   <body>
-
-    <img src="/images/carpentry.jpg" class="lesson-image" alt="Responsive image" />        
-    
+    <div class="container-fluid">
+      <div style="padding-top: 68px" class="row">
+        <div class="col-md-12" style="background-color: #F7F7F7">
+          <center>
+            <h2 style="padding: 2% 0% 0% 0%">
+              Τέχνη και Τεχνική:
+            </h2>
+          </center>
+          <center>
+            <h2 style="padding: 0% 0% 2% 0%">
+              Μαθήματα ξυλουργικής του Athens Wood School
+            </h2>
+          </center>
+        </div>
+      </div>
+    </div>
     <section class="our-webcoderskull padding-lg">
       <div class="container">
         <div class="row heading heading-icon">
-          <h3>Οι καθηγητές</h2>
+          <h2>Διδάσκοντες</h2>
+        </div>
+        <ul class="row">
+          <li class="col-12 col-md-6 col-lg-3">
+            <div class="cnt-block equal-hight" style="height: 349px;">
+              <figure>
+                <img
+                  src="/images/teachers/nikos.jpg"
+                  class="img-responsive"
+                  alt=""
+                />
+              </figure>
+              <h3><a href="http://www.webcoderskull.com/">Νίκος Ιωάννου</a></h3>
+              <p>Ξυλουργός</p>
+              <ul class="follow-us clearfix">
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-envelope" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- <section class="our-webcoderskull padding-lg">
+      <div class="container">
+        <div class="row heading heading-icon">
+          <h4>Διδάσκων</h4>
         </div><br>
         <ul class="row">
           <li class="col-12 col-md-6 col-lg-3">
@@ -97,7 +146,7 @@
               <figure>
                 <img src="/images/ti.jpg" class="img-responsive" alt="" />
               </figure>
-              <h3><a href="#">...... Νίκος</a></h3>
+              <h3><a href="#">Σταμάτη Πηνελόπη</a></h3>
               <p>Ζωγραφική</p>
               <ul class="follow-us clearfix">
                 <li>
@@ -148,175 +197,60 @@
               </ul>
             </div>
           </li>
+          <li class="col-12 col-md-6 col-lg-3">
+            <div class="cnt-block equal-hight" style="height: 349px;">
+              <figure>
+                <img src="/images/verginis.jpg" class="img-responsive" alt="" />
+              </figure>
+              <h3><a href="#">Βεργίνης Γιάννης</a></h3>
+              <p>Ποίηση</p>
+              <ul class="follow-us clearfix">
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </li>
         </ul>
       </div>
-    </section>
+    </section> -->
     <div class="container">
-      <h2>Με λίγα λόγια</h2><br>
+      <h2>Με λίγα λόγια</h2>
+      <br />
       <p>
-        Η σχολή ξυλουργικής “athensWoodschool” είναι μέρος της εκπαιδευτικής 
-        δραστηριότητας της Κοινωνικής Συνεταιριστικής Επιχείρησης “ATHENS 
-        SCHOOL ΚΟΙΝ.Σ.ΕΠ”
-      </p>
-      <p>
-        Τα μαθήματα ξυλουργικής αρχίζουν τον Οκτώβριο και τελειώνουν τον Ιούνιο. 
-        Σε κάθε εκπαιδευτική περίοδο πραγματοποιούνται 32 περίπου εβδομαδιαία 
-        μαθήματα τεσσάρων εκπαιδευτικών ωρών.
-      </p>
-      <p>
-        Στο athensWoodschool μαθαίνουμε την υπό εξαφάνιση παραδοσιακή 
-        ξυλουργική. Εκπαιδευόμαστε στα βασικά εργαλεία αυτής της τέχνης όπως 
-        είναι το πριόνι, η πλάνη, το σκαρπέλο και ενίοτε το σκεπάρνι. Η γνώση 
-        των βασικών εργαλείων μαζί με τη γνώση των τεχνικών ξυλουργικών 
-        εφαρμογών αποτελούν την ουσία της ξυλουργικής τέχνης. Μέσα από απλές 
-        αλλά και περίπλοκες κατασκευές μυούμαστε κατά κάποιο τρόπο σε μια 
-        πανάρχαιη κουλτούρα τεχνικής. Επιθυμούμε να εντάξουμε εκ νέου την 
-        παραδοσιακή ξυλουργική στη σύγχρονη αρχιτεκτονική αλλά και στην 
-        κατασκευαστική μας καθημερινότητα. Θα θέλαμε να συμβάλλουμε στον 
-        περιορισμό της ενεργοβόρου και ρυπογόνου κατασκευαστικής πρακτικής που 
-        κυριαρχεί αλλά και στην ένταξη μιας χρήσιμης παραδοσιακής τέχνης στην 
-        πολυπλοκότητα των σημερινών καιρών.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+        ullamcorper et risus eget viverra. Maecenas metus leo, dictum eget
+        luctus ut, imperdiet nec sapien. Sed vel maximus purus. Phasellus
+        interdum viverra faucibus. Curabitur sit amet posuere est, pretium
+        venenatis massa. <br /><br />Etiam accumsan nibh sit amet auctor
+        venenatis. Quisque eu accumsan mauris. Nulla id metus vel mauris
+        dignissim pellentesque nec id erat. Sed ut lectus a quam porttitor
+        pellentesque.
       </p>
       <p>
-        Το εκπαιδευτικό μας πρόγραμμα αποτελείται από τέσσερις κύκλους σπουδών, 
-        ένας σε κάθε εκπαιδευτική περίοδο. Η κάθε σπουδάστρια και ο κάθε 
-        σπουδαστής μπορεί να ολοκληρώσει το πρόγραμμα μέχρι το επίπεδο που 
-        επιθυμεί. Μπορεί να ολοκληρώσει τον Α’ κύκλο σπουδών και να σταματήσει 
-        ή να συνεχίσει στον επόμενο κύκλο – σε κάθε περίπτωση όμως επιδιώκουμε, 
-        φεύγοντας από το σχολείο μας, να είναι κάτοχος των βασικών αρχών της 
-        ξυλουργικής και να μπορεί να τις εφαρμόσει.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+        ullamcorper et risus eget viverra. Maecenas metus leo, dictum eget
+        luctus ut, imperdiet nec sapien. Sed vel maximus purus. Phasellus
+        interdum viverra faucibus. Curabitur sit amet posuere est, pretium
+        venenatis massa. <br /><br />Etiam accumsan nibh sit amet auctor
+        venenatis. Quisque eu accumsan mauris. Nulla id metus vel mauris
+        dignissim pellentesque nec id erat. Sed ut lectus a quam porttitor
+        pellentesque.
       </p>
-      <p>
-        Στο περιεχόμενο των σπουδών Α’ κύκλου περιλαμβάνονται:
-      </p>
-      <ol>
-        <li>
-          Κατανόηση του ξύλου (το δάσος ως πηγή ξύλου, ανατομία του δέντρου, 
-          ιδιότητες και ελαττώματα του ξύλου, κατεργασία ξύλου και υγεία, η 
-          ξυλεία στο εμπόριο κ.λπ)
-        </li>
-        <li>
-          Εκπαιδευτική εκδρομή σε δάσος και πριστήριο
-        </li>
-        <li>
-          Βιομηχανικά προϊόντα ξύλου και υγεία
-        </li>
-        <li>
-          Βιομηχανικά προϊόντα ξύλου και φυσικό ξύλο: μειονεκτήματα και 
-          πλεονεκτήματα
-        </li>
-        <li>
-          Ξυλουργικό σχέδιο
-        </li>
-        <li>
-          Τεχνολογία ξύλου
-        </li>
-        <li>
-          Εκπαίδευση στα εργαλεία μέσα από βασικές ξυλουργικές εφαρμογές – 
-          τεχνολογία ξύλινων κατασκευών. Η γνώση των βασικών εργαλείων της 
-          ξυλουργικής ανοίγει την πόρτα σε έναν κόσμο έμπνευσης και 
-          δημιουργίας
-        </li>
-        <li>
-          Ρυθμολογία και αρχιτεκτονική επίπλου
-        </li>
-        <li>
-          Αποκατάσταση παλαιών ξύλινων κατασκευών: μέσα από αυτή τη διαδικασία 
-          εμπεδώνουμε την τεχνική σχετικά γρήγορα και ανασύρουμε μιαν άλλη 
-          οπτική του κόσμου μέσα από τον τρόπο και την αισθητική του παρελθόντος
-        </li>
-      </ol>
-      <p>  
-        Σε κάθε μάθημα έχουμε θεωρία και πρακτική, αλλά κυρίως πρακτική 
-        εξάσκηση. Τα θεωρητικά μαθήματα συμπληρώνονται και με ηλεκτρονική 
-        διδασκαλία.
-      </p>
-      <p>
-        Στηριζόμαστε στη συλλογική εκπαιδευτική εργασία των σπουδαστριών και 
-        των σπουδαστών καθώς και στην διαδραστική μέθοδο. Δίνουμε χώρο 
-        στην ατομική έμπνευση και στη συλλογική διάχυσή της μέσα από την 
-        έρευνα και την καινοτομία. Στο athensWoodschool μεταφέρουμε μια 
-        συγκεκριμένη κουλτούρα ξυλουργικής που έρχεται από την εποχή του 19ου 
-        αιώνα και συνεχίζεται εξελισσόμενη έως σήμερα (τρεις γενιές ξυλουργών).
-      </p>
-
-
-
-      <div class="responsive">
-          <div class="gallery">
-            <a target="_blank" href="img_5terre.jpg">
-              <img src="/images/wood_gallery/wood1.jpg" alt="Cinque Terre" width="600" height="400">
-            </a>
-            <!-- <div class="desc">Add a description of the image here</div> -->
-          </div>
-        </div>
-        
-        
-        <div class="responsive">
-          <div class="gallery">
-            <a target="_blank" href="img_forest.jpg">
-              <img src="/images/wood_gallery/wood2.jpg" alt="Forest" width="600" height="400">
-            </a>
-            <!-- <div class="desc">Add a description of the image here</div> -->
-          </div>
-        </div>
-        
-        <div class="responsive">
-          <div class="gallery">
-            <a target="_blank" href="img_lights.jpg">
-              <img src="/images/wood_gallery/wood3.jpg" alt="Northern Lights" width="600" height="400">
-            </a>
-            <!-- <div class="desc">Add a description of the image here</div> -->
-          </div>
-        </div>
-        
-        <div class="responsive">
-          <div class="gallery">
-            <a target="_blank" href="img_mountains.jpg">
-              <img src="/images/wood_gallery/wood4.jpg" alt="Mountains" width="600" height="400">
-            </a>
-            <!-- <div class="desc">Add a description of the image here</div> -->
-          </div>
-        </div>
-        
-        <div class="responsive">
-          <div class="gallery">
-            <a target="_blank" href="img_mountains.jpg">
-              <img src="/images/wood_gallery/wood5.jpg" alt="Mountains" width="600" height="400">
-            </a>
-          <!-- <div class="desc">Add a description of the image here</div> -->
-          </div>
-        </div>
-          
-        <div class="responsive">
-          <div class="gallery">
-            <a target="_blank" href="img_mountains.jpg">
-              <img src="/images/wood_gallery/wood6.jpg" alt="Mountains" width="600" height="400">
-            </a>
-            <!-- <div class="desc">Add a description of the image here</div> -->
-          </div>
-        </div>
-            
-        <div class="responsive">
-          <div class="gallery">
-            <a target="_blank" href="img_mountains.jpg">
-              <img src="/images/wood_gallery/wood7.jpg" alt="Mountains" width="600" height="400">
-            </a>
-            <!-- <div class="desc">Add a description of the image here</div> -->
-          </div>
-        </div>
-              
-        <div class="responsive">
-          <div class="gallery">
-            <a target="_blank" href="img_mountains.jpg">
-              <img src="/images/wood_gallery/wood8.jpg" alt="Mountains" width="600" height="400">
-            </a>
-            <!-- <div class="desc">Add a description of the image here</div> -->
-          </div>
-        </div>     
-        <br><br><br>
       <button type="button" class="btn btn-secondary">Δήλωσε συμμετοχή</button>
-<br><br>
+      <br /><br />
     </div>
   </body>
 </html>
