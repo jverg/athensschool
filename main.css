@@ -133,6 +133,7 @@ div.desc {
 }
 .our-webcoderskull .cnt-block .follow-us {
   margin: 20px 0 0;
+  padding-inline-start: 0px;
 }
 .our-webcoderskull .cnt-block .follow-us li {
   display: inline-block;
