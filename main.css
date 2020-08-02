@@ -225,6 +225,11 @@ div.desc {
   padding: 2% 30% 3% 30%;
   background-color: #f7f7f7;
 }
+@media (max-width: 1000px) {
+  .form-inline {
+    display: none;
+  }
+}
 @media (max-width: 764px) {
   .logo {
     height: 30px;
