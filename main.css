@@ -231,6 +231,10 @@ div.desc {
   }
 }
 @media (max-width: 764px) {
+  .second-text-title {
+    padding: 3% 30% 2% 10%;
+    background-color: #f7f7f7;
+  }
   .logo {
     height: 30px;
     width: 200px;
