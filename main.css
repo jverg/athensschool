@@ -13,7 +13,7 @@ body {
 .bg-light {
   background-color: white !important;
 }
-h4 {
+h5 {
   margin-bottom: 0px;
 }
 /*** Wood image gallery ***/
@@ -221,7 +221,7 @@ div.desc {
   background-color: #f7f7f7;
 }
 .second-text-title {
-  padding: 3% 30% 2% 30%;
+  padding: 3% 30% 0% 30%;
   background-color: #f7f7f7;
 }
 .second-text {
