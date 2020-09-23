@@ -5,6 +5,10 @@ body {
   width: 300px;
   height: 40px;
 }
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
 /*** Art ***/
 .lesson-image {
   width: 100%;
