@@ -17,6 +17,9 @@ body {
 .bg-light {
   background-color: white !important;
 }
+h6 {
+  margin-bottom: 0px;
+}
 h5 {
   margin-bottom: 0px;
 }
