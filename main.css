@@ -239,6 +239,12 @@ div.desc {
   .form-inline {
     display: none;
   }
+  .third-text {
+    padding: 5% 15% 0% 5%;
+  }
+  .third-text-2 {
+    padding: 2% 7% 5% 6%;
+  }
 }
 @media (max-width: 764px) {
   .second-text-title {
